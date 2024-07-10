@@ -24,6 +24,6 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
+AntiforgeryApplicationBuilderExtensions();
 
 
-builder.Host(); 
